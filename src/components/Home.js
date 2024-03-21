@@ -621,7 +621,7 @@ export default function Home() {
                         <StarIcon style={{ color: "gold" }} />
                         <StarIcon style={{ color: "gold" }} />
                         <StarIcon style={{ color: "gold" }} />
-                        <StarIcon  />
+                        <StarIcon />
                         <hr />
                         <div style={{ display: "flex" }}>
                             <img
@@ -629,7 +629,7 @@ export default function Home() {
                                     borderRadius: "50%",
                                     width: 80,
                                     height: 80,
-                                     background: "red",
+                                    background: "red",
                                     display: "block",
                                 }}
                                 src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvbWV8ZW58MHx8MHx8fDA%3D"
@@ -841,20 +841,20 @@ export default function Home() {
                 </Grid>
                 <Grid item xs={3}>
                     <h3>Apps</h3>
-                    <div style={{ display: "flex" }}>
+                    <Button style={{ display: "flex" }}>
                         <AppleIcon />
                         <div>
                             <p>Download on the</p>
                             <h6>Apple Store</h6>
                         </div>
-                    </div>
-                    <div style={{ display: "flex" }}>
+                    </Button>
+                    <Button style={{ display: "flex" }}>
                         <PlayArrowIcon />
                         <div>
                             <p>Get it on </p>
                             <h6>Google Play</h6>
                         </div>
-                    </div>
+                    </Button>
                 </Grid>
             </Grid>
         </div>
